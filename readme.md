@@ -1,7 +1,7 @@
 
 # AST 2017
 
-![Build](https://travis-ci.org/cesarBere/ece-nodejs-2017.svg?branch=master)
+![Build](https://travis-ci.org/charlesandre/ast_lab_work.svg?branch=master)
 
 simple project for ECE AST class
 
