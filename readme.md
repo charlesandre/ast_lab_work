@@ -5,22 +5,18 @@
 
 simple project for ECE AST class
 
-## Installation instructions 
+## Installation instructions
 
 Just clone it from github
 
-## Run 
+## Run
 
-Use `node index.js`
+Use "npm install" and then "npm start"
 
-## Tests 
+## Tests
 
-For later 
+For later
 
 ## Contributors
 
-Cesar Berezowski 
-
-## License 
-
-Apache2
+Charles Andre & Vincent Bas

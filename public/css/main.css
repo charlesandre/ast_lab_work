@@ -12,3 +12,6 @@ div.images {
 div.images div {
   margin: 20px;
 }
+div.blocks a {
+  margin: 10px;
+}

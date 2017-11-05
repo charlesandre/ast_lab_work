@@ -65,9 +65,9 @@ module.exports =
       when "/"
         renderResource "index.pug", "html", res
       when "team"
-        renderResource "user.pug", "html", res
-      when "project"
-        renderRessource "project.pug", "html", res
+        renderResource "project.pug", "html", res
+      when "proj"
+        renderResource "project.pug", "html", res
       when "save"
         user.save "testu", "testpwd", () ->
           res.writeHead 201,
@@ -82,9 +82,7 @@ module.exports =
       when "public"
         renderResource filename, filetype, res
       else
-        res.writeHead 404,
-          'Content-Type': 'text/plain'
-        res.end 'Route not found\n'
+        renderResource "notfound.pug", "html", res
 
   port: "8888"
   address: "127.0.0.1"
