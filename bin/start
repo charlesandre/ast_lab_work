@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# node lib/index.js
+# node_modules/.bin/stylus public/stylus/main.styl --out public/css/main.css
+node_modules/.bin/coffee src/index.coffee

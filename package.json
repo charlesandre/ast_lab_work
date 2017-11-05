@@ -1,0 +1,21 @@
+{
+  "name": "ast_project_2017",
+  "description": "simple project for ECE AST class",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "./bin/start",
+    "test": "./bin/test tests/*",
+    "compile": "./bin/compile"
+  },
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.1"
+  }
+}
